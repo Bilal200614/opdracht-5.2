@@ -1,0 +1,152 @@
+.container {
+    left: 10px;
+    height: 10vh;
+    background-image: url(./img/img7.jpg);
+    background-size: cover;
+   background-color: black;
+    background-repeat: repeat-x;
+    font-family:"goldman", cursive;
+    text-align: center;
+    padding: auto;
+    background-position: center;
+}
+  
+  section {
+    height: 100vh;
+    width: 100vw;
+  }
+  nav {
+    position: fixed;
+    display: flex;
+    width: 100vw;
+    min-height: 10vh;
+    flex-wrap: wrap;
+    margin: auto;
+    background: #00a8c7;
+    top: 0%;
+    align-items: center;
+    margin: auto;
+  }
+  
+  nav ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+  }
+  nav li {
+    font-size: 2.5rem;
+    padding: 0 4rem 0 4rem;
+  }
+   nav a {
+    color: white;
+    text-decoration: none;
+  }
+  nav img {
+    width: 3vw;
+    position:absolute;
+  }
+  
+  h1 {
+    font-weight: bold;
+    font-size: medium;
+  }
+  
+  h2 {
+    text-align: center;
+    font-size: 3rem;
+    color:  #d7f60b;
+    font-weight: bold;
+    padding-top: 1.8rem;
+  }
+  
+  p {
+    font-size: 20px;
+    color: white}
+  
+  footer p {
+    color: black;
+    width: 10vw;
+    height: 2vh;
+    font-size: 1rem;
+  }
+
+  a{color: black;
+  }
+
+  img {
+  margin:auto;
+  border: 1rem;
+  padding: 1rem;
+  float: left;
+  }
+
+  html {
+    background: url(./img/hacker.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    background-color: black;
+  }
+
+  footer {
+  height: 50%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #00a8c7;
+    color: black;
+    text-align: center;
+  }
+
+  #javascript {
+    float: right;
+  }
+
+  #php{
+    float: left;
+  }
+
+  #sql{
+    float: right;
+  }
+
+  html {
+    font-size: 15px;
+    font-family: gold man;
+  
+  }
+
+  body {
+    font-family: "Goldman", cursive;
+    height: 50vh;
+    position: -webkit-sticky;
+    min-height: 10vh;
+    text-align: left;
+    overflow: scroll;
+    background-repeat: no-repeat;
+    text-align: center;
+  }
+
+  .dropdown {
+      position: relative;
+      display: inline-block;
+      color: white;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: right;
+      background-color: black;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      padding: 12px 16px;
+      z-index: 1;
+    }
+    
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+  
+ 
